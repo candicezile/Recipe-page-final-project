@@ -1,0 +1,200 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.child{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 1360px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+   margin: auto;
+   border-radius: 2%;
+
+}
+
+img{
+    width: 630px;
+    height: 300px;
+    border-radius: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1, h2{
+         font-family: "Young Serif", serif;
+         font-weight: 400;
+         font-style: normal;
+        
+    }
+
+    h2{
+        color: hsl(14, 45%, 36%);
+    }
+
+    h3{
+        color: hsl(332, 51%, 32%);
+        margin-left: 3%;
+    }
+    .section-1{
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 150px;
+    }
+
+    .section-2{
+        
+        border-radius: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .section-3{
+        
+        border-radius: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .section-4{
+        
+        border-radius: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+  b{
+    color: hsl(30, 10%, 34%);
+  }
+
+   .attribution{
+    position: fixed;
+   }
+ 
+   h1, .paragraph-1{
+    margin-left: 5%;
+        margin-right: 5%;
+
+   }
+
+   .ingredients, .instructions{
+    margin-left: 3%;
+   }
+  
+   .in-gs{
+    color: hsl(14, 45%, 36%);
+   }
+
+   
+
+   table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+  p{
+    font-size: 16px;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    body{
+        background-color:white;
+    }
+    .container{
+        background-color: white;
+    }
+    img{
+        width: 250px;
+        height: 300px;
+        border-radius: 2%;
+
+        }
+    main{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    
+    .preperations{
+        
+        margin: 0;
+        
+        .image-1{
+            padding: 0;
+            margin: 0;
+        }
+    
+        img{
+            border-radius: 0;
+        }
+    
+        h1{
+            font-size: 36px;
+        }
+    
+        p{
+            font-size: 15.5px;
+            line-height: 1.4;
+        }
+    
+        .section-1{
+            padding-inline: 12% 12%;
+        }
+    
+        h3{
+            padding-inline: 7%;
+        }
+    }
+    li{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .section-3{
+        h2{
+            font-size: 26px;
+        }
+    }
+    
+    h1{
+        font-weight: 700;
+    }
+    
+    h1, h3, .section-4{
+        margin: 10% 35px 10% 35px;
+    }
+    
+    table td{
+        color: var(--nutmeg-color);
+    }
+    
+    }
+    
+
